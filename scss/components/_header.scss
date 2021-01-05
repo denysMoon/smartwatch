@@ -1,0 +1,29 @@
+header{
+  height: 100px;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav{
+  width: 514px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav>a{
+  color: #000000;
+  font-size: 20px;
+}
+.button{
+  width: 128px;
+  height: 47px;
+  background: #F29494;
+  border-radius: 3px;
+}
+.toggle-button{
+  background: none;
+  cursor: pointer;
+}
